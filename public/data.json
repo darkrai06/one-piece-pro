@@ -1,0 +1,120 @@
+
+[
+  {
+    "AdventureTitle": "Sabaody Bubble Park Expedition",
+    "Image": "https://m.media-amazon.com/images/M/MV5BYTJlZjYzMDQtM2YwNC00NGNjLWE1YTMtYTljMmFkNDlmNGY4XkEyXkFqcGc@._V1_.jpg",
+    "ID": "OP006",
+    "CategoryName": "Island Exploration",
+    "ShortDescription": "Discover the wonders of Sabaody Archipelago and its mysterious bubble trees!",
+    "AdventureCost": 320,
+    "BookingAvailability": true,
+    "Location": "Sabaody Archipelago, Near the Red Line",
+    "Duration": "2 Days, 1 Night",
+    "AdventureLevel": "Intermediate",
+    "IncludedItems": ["Bubble Coating Guide", "Diving Suit", "Local Map"],
+    "EcoFriendlyFeatures": ["No-Plastic Policy", "Marine Wildlife Protection"],
+    "MaxGroupSize": 15,
+    "SpecialInstructions": [
+        "Do not disturb the bubbles; they are fragile.",
+        "Avoid conflicts with bounty hunters and Celestial Dragons."
+    ]
+  },
+
+  {
+    "AdventureTitle": "Mary Geoise Royalty Tour",
+    "Image": "https://cdna.artstation.com/p/assets/images/images/074/254/790/large/danang-arjuna-mary-geoiselighting-only.jpg?1711608189",
+    "ID": "OP007",
+    "CategoryName": "Elite World Expedition",
+    "ShortDescription": "A rare and dangerous expedition to the heart of the World Government!",
+    "AdventureCost": 1000,
+    "BookingAvailability": false,
+    "Location": "Mary Geoise, Red Line",
+    "Duration": "3 Days, 2 Nights",
+    "AdventureLevel": "Extreme",
+    "IncludedItems": ["Disguise Kit", "Elite Guide", "Escape Plan"],
+    "EcoFriendlyFeatures": ["Stealth Navigation", "No Environmental Impact Policy"],
+    "MaxGroupSize": 4,
+    "SpecialInstructions": [
+        "Do not get caught by the Celestial Dragons.",
+        "Remain silent and blend in with the Nobles.",
+        "Follow the guide’s instructions carefully."
+    ]
+},
+  {
+      "AdventureTitle": "Skypiea Cloud Trek",
+      "Image": "https://wallpaperaccess.com/full/9933010.png",
+      "ID": "OP002",
+      "CategoryName": "Sky Island Expedition",
+      "ShortDescription": "Explore the legendary floating land of Skypiea!",
+      "AdventureCost": 350,
+      "BookingAvailability": true,
+      "Location": "Skypiea, Above the Grand Line",
+      "Duration": "3 Days, 2 Nights",
+      "AdventureLevel": "Intermediate",
+      "IncludedItems": ["Dial Equipment", "Wing Suit", "Cloud Boots"],
+      "EcoFriendlyFeatures": ["Eco-Friendly Sky Transport", "No-Trace Exploration"],
+      "MaxGroupSize": 6,
+      "SpecialInstructions": [
+          "Bring light gear for high-altitude travel.",
+          "Respect the Shandorian heritage."
+      ]
+  },
+  {
+      "AdventureTitle": "Wano Samurai Training",
+      "Image": "https://wallpaperaccess.com/full/1972307.png",
+      "ID": "OP003",
+      "CategoryName": "Cultural & Martial Arts",
+      "ShortDescription": "Train like a true samurai in the land of Wano!",
+      "AdventureCost": 450,
+      "BookingAvailability": false,
+      "Location": "Wano Country, New World",
+      "Duration": "5 Days, 4 Nights",
+      "AdventureLevel": "Advanced",
+      "IncludedItems": ["Katana Training", "Kimono", "Samurai Instructor"],
+      "EcoFriendlyFeatures": ["Support Local Craftsmen", "Respect for Nature"],
+      "MaxGroupSize": 10,
+      "SpecialInstructions": [
+          "Follow Bushido code of honor.",
+          "Wear traditional attire during training."
+      ]
+  },
+  {
+      "AdventureTitle": "Thriller Bark Haunted Voyage",
+      "Image": "https://wallpaperaccess.com/full/8294557.jpg",
+      "ID": "OP004",
+      "CategoryName": "Spooky Adventure",
+      "ShortDescription": "Set sail for the largest ghost ship on the sea!",
+      "AdventureCost": 280,
+      "BookingAvailability": true,
+      "Location": "Thriller Bark, Florian Triangle",
+      "Duration": "2 Days, 1 Night",
+      "AdventureLevel": "Intermediate",
+      "IncludedItems": ["Lantern", "Ghost Repellent", "Night Vision Goggles"],
+      "EcoFriendlyFeatures": ["Non-Toxic Repellents", "Minimal Artificial Lighting"],
+      "MaxGroupSize": 12,
+      "SpecialInstructions": [
+          "Be cautious of strange shadows.",
+          "Stay close to the crew at night."
+      ]
+  },
+  {
+      "AdventureTitle": "Water 7 Aqua Mania",
+      "Image": "https://cdn.shopify.com/s/files/1/0770/3425/8763/files/water_7_one_piece.jpg?v=1701945579",
+      "ID": "OP005",
+      "CategoryName": "Underwater Exploration",
+      "ShortDescription": "Dive into the depths to visit Fish-Man Island!",
+      "AdventureCost": 600,
+      "BookingAvailability": true,
+      "Location": "Water 7 Island, Beside Eines Lobby",
+      "Duration": "4 Days, 3 Nights",
+      "AdventureLevel": "Expert",
+      "IncludedItems": ["Oxygen Gear", "Coating Specialist", "Underwater Scooter"],
+      "EcoFriendlyFeatures": ["Marine Conservation Program", "Biodegradable Gear"],
+      "MaxGroupSize": 5,
+      "SpecialInstructions": [
+          "Respect Fish-Man customs.",
+          "Beware of deep-sea currents."
+      ]
+  }
+]
+  
