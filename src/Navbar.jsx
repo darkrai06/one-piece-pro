@@ -19,8 +19,8 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/login" className="text-xl">
-          Book Now
+        <NavLink to="/faq" className="text-xl">
+          FAQ
         </NavLink>
       </li>
       <li>
@@ -73,12 +73,12 @@ const Navbar = () => {
       <div className="hidden lg:flex lg:justify-end">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
-      <div className="">
+      <div className=" f">
         {user && user?.email ? (
           <>
-            <div className="flex items-center gap-2">+6
+            <div className="flex items-center gap-2">
               <div className="hidden lg:flex">
-                <p>User : {user?.displayName}</p>
+                <p>{user?.displayName}</p>
               </div>
               <div className="hidden lg:flex">
                 <img

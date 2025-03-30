@@ -21,6 +21,7 @@ import "react-toastify/dist/ReactToastify.css";
 import UpdateProfile from "./UpdateProfile";
 import Dashboard from "./Dashboard";
 import Review from "./Review";
+import FAQ from "./FAQ";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -46,8 +47,12 @@ const router = createBrowserRouter([
         element: <Review></Review>,
       },
       {
+        path: "/faq",
+        element: <FAQ></FAQ>
+      },
+      {
         path: "/details/:id",
-        loader: ({ params }) => fetch("data.json"),
+        loader: ({ params }) => fetch("/data.json"),
         element: (
           <PrivateRoute>
             <DetailsPage></DetailsPage>
