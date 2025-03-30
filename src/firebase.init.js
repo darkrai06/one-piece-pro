@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBoJEnOERJcQY07_XPEkBdDBuTsy00LoNA",
-  authDomain: "sabaody-archipelago.firebaseapp.com",
-  projectId: "sabaody-archipelago",
-  storageBucket: "sabaody-archipelago.firebasestorage.app",
-  messagingSenderId: "370552504159",
-  appId: "1:370552504159:web:e9d5803340faa750edc0ea"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase

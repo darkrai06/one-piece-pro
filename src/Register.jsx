@@ -43,10 +43,6 @@ const Register = () => {
       <Helmet>
         <title>Register | One Piece</title>
       </Helmet>
-      
-      <Link to="/" className="absolute top-8 left-16 btn">
-        Back to Home
-      </Link>
 
       <div className="w-96 p-8 bg-white bg-opacity-10 backdrop-blur-md rounded-xl shadow-lg">
         <h2 className="text-2xl font-semibold text-white text-center mb-6">
