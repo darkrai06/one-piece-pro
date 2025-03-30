@@ -20,6 +20,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import UpdateProfile from "./UpdateProfile";
 import Dashboard from "./Dashboard";
+import Review from "./Review";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>,
+      },
+      {
+        path: "/review",
+        element: <Review></Review>,
       },
       {
         path: "/details/:id",

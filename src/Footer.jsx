@@ -58,9 +58,9 @@ const Footer = () => {
             <h2 className="text-2xl font-semibold">Contact Us</h2>
             <p
               className="flex items-center justify-center sm:justify-start gap-2 cursor-pointer text-gray-200 hover:text-white transition"
-              onClick={() => handleCopy("support@discountpro.com")}
+              onClick={() => handleCopy("support@oppro.com")}
             >
-              <FiMail /> support@discountpro.com
+              <FiMail /> support@oppro.com
             </p>
             <p
               className="flex items-center justify-center sm:justify-start gap-2 cursor-pointer text-gray-200 hover:text-white transition"

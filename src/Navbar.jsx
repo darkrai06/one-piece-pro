@@ -20,12 +20,12 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink to="/login" className="text-xl">
-          Login
+          Book Now
         </NavLink>
       </li>
       <li>
-        <NavLink to="/register" className="text-xl">
-          Register
+        <NavLink to="/review" className="text-xl">
+          Reviews
         </NavLink>
       </li>
       {user && (
