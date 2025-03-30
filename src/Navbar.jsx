@@ -71,7 +71,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link className="btn btn-ghost font-extrabold text-xl hidden md:hidden lg:flex">
+        <Link className="btn btn-ghost font-extrabold text-xl lg:flex">
           ONE PIECE PRO
         </Link>
       </div>
