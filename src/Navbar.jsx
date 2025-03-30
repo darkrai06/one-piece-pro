@@ -1,9 +1,14 @@
 import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { MyAuthProviderContext } from "./AuthProvider";
+import { toast } from "react-toastify";
 
 const Navbar = () => {
   const { user, signOutUser } = useContext(MyAuthProviderContext);
+
+  const handleProfileClick = () => {
+      toast.success(`Welcome, ${user.displayName || "User"}!`);
+  };
   const handleSignOut = () => {
     signOutUser()
       .then(() => {
@@ -31,7 +36,7 @@ const Navbar = () => {
       {user && (
         <>
           <li>
-            <NavLink to="/profile" className="text-xl">
+            <NavLink to="/profile" onClick={handleProfileClick}  className="text-xl">
               User Profile
             </NavLink>
           </li>

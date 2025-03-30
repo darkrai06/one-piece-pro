@@ -20,10 +20,13 @@ const Login = () => {
     e.preventDefault();
     const password = e.target.password.value;
     logInUser(email, password)
-      .then((result) => {
-        console.log(result.user);
-        navigate("/");
-      })
+    .then((result) => {
+      console.log(result.user);
+      const redirectPath = location.state?.from?.pathname || "/";
+      navigate(redirectPath, { replace: true });
+
+      toast.success("Login Successful!");
+    })
       .catch((err) => {
         setError({ ...error, login: err.code });
       });

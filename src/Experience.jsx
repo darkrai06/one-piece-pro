@@ -17,14 +17,12 @@ const Experience = () => {
         {experienceCards.map((card) => (
           <div key={card.ID} className="hero bg-base-200 p-4">
             <div className="hero-content bg-cyan-900 rounded-xl flex flex-col lg:flex-row items-center lg:items-start">
-              {/* Image */}
               <img
                 src={card.Image}
                 className="lg:w-[640px] lg:h-[360px] sm:w-full md:w-auto rounded-lg shadow-2xl animate__animated animate__bounce"
                 alt="Adventure"
               />
-              
-              {/* Text Content */}
+
               <div className="lg:ml-10 text-center lg:text-left max-w-xl">
                 <h1 className="text-5xl font-bold">{card.AdventureTitle}</h1>
                 <p className="py-6">
