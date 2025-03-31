@@ -25,7 +25,7 @@ Welcome to **One Piece Pro**, an adventure booking platform where users can expl
 ---
 ## Live Link
 ```
-a
+https://one-piece-pro.netlify.app/
 ```
 ---
 ## Screenshots
