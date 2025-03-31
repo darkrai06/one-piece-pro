@@ -87,7 +87,7 @@ const Footer = () => {
           <ul className="flex justify-center gap-6 text-xl">
             <li className="flex flex-col items-center">
               <a
-                href="#"
+                href="https://www.facebook.com/mahin.otakulimited"
                 className="hover:text-blue-700 transition"
                 aria-label="Facebook"
               >
@@ -97,7 +97,7 @@ const Footer = () => {
             </li>
             <li className="flex flex-col items-center">
               <a
-                href="#"
+                href="https://www.instagram.com/anime_guy_bd/"
                 className="hover:text-pink-400 transition"
                 aria-label="Instagram"
               >
@@ -107,7 +107,7 @@ const Footer = () => {
             </li>
             <li className="flex flex-col items-center">
               <a
-                href="#"
+                href="https://t.me/animeguybd"
                 className="hover:text-blue-400 transition"
                 aria-label="Telegram"
               >
@@ -117,7 +117,7 @@ const Footer = () => {
             </li>
             <li className="flex flex-col items-center">
               <a
-                href="#"
+                href="https://www.youtube.com/@animeguybd954"
                 className="hover:text-red-500 transition"
                 aria-label="YouTube"
               >
@@ -128,7 +128,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Bottom Section: Copyright */}
         <div className="mt-10 text-center">
           <p className="text-sm text-gray-200">
             &copy; 2024 Discount PRO. All Rights Reserved.

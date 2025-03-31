@@ -20,8 +20,7 @@ const Experience = () => {
               <img
                 src={card.Image}
                 className="lg:w-[640px] lg:h-[360px] sm:w-full md:w-auto rounded-lg shadow-2xl animate__animated animate__bounce"
-                alt="Adventure"
-              />
+                alt="Adventure"/>
 
               <div className="lg:ml-10 text-center lg:text-left max-w-xl">
                 <h1 className="text-5xl font-bold">{card.AdventureTitle}</h1>

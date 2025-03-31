@@ -12,7 +12,6 @@ const UpdateProfile = () => {
     e.preventDefault();
     const name = e.target.name.value;
     const photo = e.target.photo.value;
-    const email = e.target.email.value;
 
     updateUserProfile({ displayName: name, photoURL: photo }).then(
       setUser({
@@ -25,7 +24,7 @@ const UpdateProfile = () => {
     navigate("/dashboard");
   };
   return (
-    <div className="card bg-base-100 w-full shrink-0 shadow-2xl">
+    <div className="card bg-base-100 items-center w-full shrink-0 shadow-2xl">
       <form className="card-body" onSubmit={handleUpdate}>
         <h1 className="text-3xl font-bold text-center">Update User Profile</h1>
         <div className="form-control">
@@ -48,18 +47,6 @@ const UpdateProfile = () => {
             type="text"
             name="photo"
             placeholder="photo-url"
-            className="input input-bordered"
-            required
-          />
-        </div>
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Email</span>
-          </label>
-          <input
-            type="email"
-            name="email"
-            placeholder="email"
             className="input input-bordered"
             required
           />
