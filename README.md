@@ -23,10 +23,16 @@ Welcome to **One Piece Pro**, an adventure booking platform where users can expl
 - **Animate CSS**
 
 ---
-
+## Live Link
+```
+a
+```
+---
 ## Screenshots
+- **Login Page**
 ![Login Page](Screen/login.png)
-![Footer](Screen/Screenshot 2025-03-31 195044.png)
-![Home Page]("Screen/home.png")
-![Extras]("Screen/extra.png")
+- **Home Page**
+![Home Page](Screen/home.png)
+- **Extras**
+![Extras](Screen/extra.png)
 
