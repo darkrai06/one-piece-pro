@@ -4,7 +4,7 @@ const Modal = ({ onClose }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
       <div className="bg-white p-6 rounded-lg shadow-lg w-96">
-        <h2 className="text-xl font-bold mb-3">Expert Consultation Time</h2>
+        <h2 className="text-xl text-blue-600 font-bold mb-3">Expert Consultation Time</h2>
         <p className="text-gray-700">
           Our experts are available from <strong>10:00 AM to 8:00 PM</strong>.
           Please visit again during these hours to connect with an expert.
