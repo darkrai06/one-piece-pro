@@ -25,8 +25,8 @@ Welcome to **One Piece Pro**, an adventure booking platform where users can expl
 ---
 
 ## Screenshots
-![Login Page](Screen/Screenshot 2025-03-31 195023.png)
+![Login Page](Screen/login.png)
 ![Footer](Screen/Screenshot 2025-03-31 195044.png)
-![Home Page]('Screen/Screenshot 2025-03-31 194939.png')
-![Extras]('./Screen/Screenshot 2025-03-31 195135.png')
+![Home Page]("Screen/home.png")
+![Extras]("Screen/extra.png")
 
