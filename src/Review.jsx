@@ -35,7 +35,7 @@ const reviews = [
   {
     name: "Franky",
     rating: 4,
-    comment: "Superrrrrrrrrrrr!!! ",
+    comment: "Suuuuuperrr!!! ",
     avatar: "https://wallpaperaccess.com/download/franky-one-piece-1577022"
   },
   {
