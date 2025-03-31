@@ -1,12 +1,25 @@
-# React + Vite
+# 🌊 One Piece Pro - Adventure Booking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **One Piece Pro**, an adventure booking platform where users can explore, register, and book their favorite forest adventures! 🌿🚀
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🔐 **Authentication**: Register & Login using Firebase (Email/Password & Google Sign-In)
+- 🔒 **Private Routes**: Restrict access to certain pages based on authentication
+- 📜 **Detailed Adventure Pages**: View information about each adventure
+- 🗣️ **Talk with Expert**: Google Meet integration for consultation
+- 🔄 **Forgot Password**: Reset password via email
+- 🎨 **Modern UI**: Styled with Tailwind CSS and animations
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Technologies Used
+- **React.js** 
+- **Firebase Authentication**
+- **Tailwind CSS** 
+- **React Helmet** 
+- **React Toastify** 
+- **Animate CSS**
+
+---
